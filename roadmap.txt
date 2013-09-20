@@ -1,6 +1,6 @@
 *client*
-Video controls
-Back from movie
+Video controls -DONE
+Back from movie -DONE
 settings (server IP, base path)
 File browser
 freebase file info
@@ -13,4 +13,4 @@ self install server (custom apaache server on port?)
 Transcoder
 
 *dev*
-build script (zip) 
+build script (zip) -DONE
