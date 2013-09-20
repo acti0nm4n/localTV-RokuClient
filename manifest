@@ -1,0 +1,11 @@
+title=Basic Navigation
+subtitle=Basic Navigation Sample
+major_version=1
+minor_version=0
+build_version=0
+mm_icon_focus_hd=pkg:/images/focus_hd.png
+mm_icon_side_hd=pkg:/images/side_hd.png
+mm_icon_focus_sd=pkg:/images/focus_sd.png
+mm_icon_side_sd=pkg:/images/side_sd.png
+splash_screen_hd=pkg:/images/splash_page.png
+splash_screen_sd=pkg:/images/splash_page.png
