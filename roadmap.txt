@@ -1,0 +1,16 @@
+*client*
+Video controls
+Back from movie
+settings (server IP, base path)
+File browser
+freebase file info
+Parental PIN
+
+*server*
+Rebuild based on file type & file info
+Node.js server
+self install server (custom apaache server on port?)
+Transcoder
+
+*dev*
+build script (zip) 

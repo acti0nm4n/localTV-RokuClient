@@ -1,8 +1,8 @@
-title=Basic Navigation
-subtitle=Basic Navigation Sample
-major_version=1
-minor_version=0
-build_version=0
+title=localTV
+subtitle=Video on your network
+major_version=0
+minor_version=1
+build_version=1
 mm_icon_focus_hd=pkg:/images/focus_hd.png
 mm_icon_side_hd=pkg:/images/side_hd.png
 mm_icon_focus_sd=pkg:/images/focus_sd.png
