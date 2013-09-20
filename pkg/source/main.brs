@@ -8,7 +8,7 @@ Function Main() as void
     
     InitTheme()
     
-    'screen.SetHeader("localTV")
+    'screen.SetHeader("Select a video")
     
     date = CreateObject("roDateTime")
 
@@ -87,7 +87,7 @@ Function Main() as void
        
                
                player.SetMessagePort(port)
-               player.SetLoop(true)
+               player.SetLoop(false)
                player.SetPositionNotificationPeriod(1)
                player.SetDestinationRect(rect)
                
@@ -120,32 +120,32 @@ Function InitTheme() as void
     
     listItemHighlight           = "#FFFFFF"
     listItemText                = "#707070"
-    brandingGreen               = "#37491D"
+    branding               = "#37491D"
     backgroundColor             = "#e0e0e0"
     theme = {
         BackgroundColor: backgroundColor
         OverhangSliceHD: "pkg:/images/Overhang_Slice_HD.png"
         OverhangSliceSD: "pkg:/images/Overhang_Slice_HD.png"
-        OverhangLogoHD: "pkg:/images/channel_diner_logo.png"
-        OverhangLogoSD: "pkg:/images/channel_diner_logo.png"
+        OverhangLogoHD: "pkg:/images/logo.png"
+        OverhangLogoSD: "pkg:/images/logo.png"
         OverhangOffsetSD_X: "25"
         OverhangOffsetSD_Y: "15"
         OverhangOffsetHD_X: "25"
         OverhangOffsetHD_Y: "15"
-        BreadcrumbTextLeft: brandingGreen
+        BreadcrumbTextLeft: branding
         BreadcrumbTextRight: "#E1DFE0"
-        BreadcrumbDelimiter: brandingGreen
+        BreadcrumbDelimiter: branding
         
         ListItemText: listItemText
         ListItemHighlightText: listItemHighlight
         ListScreenDescriptionText: listItemText
         ListItemHighlightHD: "pkg:/images/select_bkgnd.png"
         ListItemHighlightSD: "pkg:/images/select_bkgnd.png"
-        CounterTextLeft: brandingGreen
-        CounterSeparator: brandingGreen
+        CounterTextLeft: branding
+        CounterSeparator: branding
         GridScreenBackgroundColor: backgroundColor
-        GridScreenListNameColor: brandingGreen
-        GridScreenDescriptionTitleColor: brandingGreen
+        GridScreenListNameColor: branding
+        GridScreenDescriptionTitleColor: branding
         GridScreenLogoHD: "pkg://images/channel_diner_logo.png"
         GridScreenLogoSD: "pkg://images/channel_diner_logo.png"
         GridScreenOverhangHeightHD: "138"
