@@ -1,6 +1,6 @@
 localTV-RokuClient
 ==================
-Local media client for NowTV Roku box. Requires localTV-server for file list.
+Local media client for NowTV Roku box. Requires localTV-server for file list (https://github.com/acti0nm4n/localTV-server/)
 
 Built for use with NowTV and Raspberry Pi (or any PC) as server.
 
